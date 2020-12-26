@@ -48,12 +48,12 @@ const player ={
   },
   slow: ()=>{
     player.pause()
-    player.time = 100
+    player.time = 50
     player.play()
   },
   normal: ()=>{
     player.pause()
-    player.time = 30
+    player.time = 20
     player.play()
   },
   fast: ()=>{
